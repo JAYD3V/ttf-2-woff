@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "types"],
+
+    "compilerOptions": {
+        // ECMAS Support
+        "lib": ["ESNext"],
+        "target": "ES2022",
+
+        // Runtime/Module
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+
+        // Project Structure
+        "rootDir": "src",
+        "outDir": "build",
+        "declarationDir": "types",
+
+        // Emitted Resources
+        "sourceMap": true,
+        "inlineSources": true,
+        "declaration": true,
+        "declarationMap": true,
+
+        // Checks
+        "strict": true,
+        "skipLibCheck": true,
+        "alwaysStrict": false
+    }
+}

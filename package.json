@@ -1,0 +1,31 @@
+{
+    "name": "ttf-2-woff",
+    "version": "0.0.1",
+    "description": "Convert a TTF font to a WOFF font.",
+    "main": "index.js",
+    "type": "module",
+    "types": "types",
+    "bin": "build/bin/ttf-2-woff.js",
+    "homepage": "https://github.com/JAYD3V/ttf-2-woff#readme",
+    "author": "Andrew Chambers <W3Dojo@Gmail.com>",
+    "license": "Apache-2.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JAYD3V/ttf-2-woff.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JAYD3V/ttf-2-woff/issues"
+    },
+    "devDependencies": {
+        "@tsconfig/node16-strictest": "^1.0.4",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^16.11.7",
+        "@typescript-eslint/eslint-plugin": "*",
+        "@typescript-eslint/parser": "*",
+        "eslint": "^8.24.0",
+        "typescript": "^4.8.3"
+    }
+}
