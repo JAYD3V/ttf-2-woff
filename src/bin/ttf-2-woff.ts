@@ -26,7 +26,7 @@ existsSync(filepath)
   * Logs an informative error message, then calls `process.exit(1)`.
   * This purpose of this function is to offer a means for error-handling
   * in a CLI environment. */
-function logErrThenExit(mesg: string) {
+function logErrThenExit(mesg:string) {
     console.error('\x1b[0;31mERROR:\x1b[0m %s', mesg);
     exit(1);
 }
